@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Encriptador y Desencriptador, creado por Juan Carlos Pampa Huanca para el curso de logica de programación">
+    <link rel="icon" href="favico.ico" type="image/x-icon">
+    <title>
+      Encriptador y Desencriptador - Creado por Juan Carlos Pampa Huanca
+    </title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container navigation">
+        <a href="">
+          <img src="./img/logo.svg" alt="Alura" />
+        </a>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="encryption">
+        <article>
+          <textarea
+            class="form-control textarea"
+            id="textareaText"
+            placeholder="Ingrese el texto aquí"
+          ></textarea>
+          <p class="flex items-center">
+            <img src="./img/icon/info.svg" alt="info" />
+            &nbsp;Solo letras minúsculas y sin acentos
+          </p>
+          <ul class="group-btn">
+            <li class="group-btn__item">
+              <button
+                class="btn w-full text-center btn-primary"
+                id="btnEncryptation"
+              >
+                Encriptar
+              </button>
+            </li>
+            <li class="group-btn__item">
+              <button class="btn w-full text-center" id="btnDecryptation">
+                Desencriptar
+              </button>
+            </li>
+          </ul>
+        </article>
+        <article class="encryption__right text-center" id="encryption__right">
+          <img class="block w-full only-desk" src="./img/banner.svg" alt="Encriptador" />
+          <p class="text-primary text-lg">Ningún mensaje valido fue encontrado</p>
+          <p>Ingresa el texto valido que desees encriptar o desencriptar.</p>
+        </article>
+        <article
+          class="encryption__rpta text-center hidden"
+          id="encryption__rpta"
+        >
+          <textarea
+            name=""
+            id="outputText"
+            class="textarea form-control2"
+          ></textarea>
+          <button class="btn w-full text-center" id="btnCopy">Copiar</button>
+        </article>
+      </section>
+    </main>
+    <footer class="footer text-center">
+      Creado por Juan Carlos Pampa Huanca
+    </footer>
+    <div id="messageBubble" class="message-bubble hidden">Texto copiado al portapapeles!</div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
