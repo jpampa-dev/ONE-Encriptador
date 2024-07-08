@@ -10,9 +10,7 @@ Este proyecto es una aplicación web que encripta y desencripta texto basado en 
   - [Características](#características)
   - [Requisitos](#requisitos)
   - [Instalación](#instalación)
-  - [Uso](#uso)
-  - [Contribución](#contribución)
-  - [Licencia](#licencia)
+  - [Ver pagina](#ver-pagina)
 
 ## Características
 
@@ -33,6 +31,8 @@ Este proyecto es una aplicación web que encripta y desencripta texto basado en 
 - Un navegador web moderno (Chrome, Firefox, Safari, Edge).
 - Conexión a internet para clonar el repositorio desde GitHub.
 
+  
+
 ## Instalación
 
 1. Clona el repositorio en tu máquina local:
@@ -40,3 +40,6 @@ Este proyecto es una aplicación web que encripta y desencripta texto basado en 
    ```bash
    git clone https://github.com/jpampa-dev/ONE-Encriptador.git
    cd ONE-Encriptador
+
+## Ver pagina
+https://jpampa-dev.github.io/ONE-Encriptador/
